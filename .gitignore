@@ -1,0 +1,16 @@
+# PyCharm specific files
+.idea/
+.idea_modules/
+*.iml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment files
+venvFlask/
+venv/
+
+# Sonarqube files
+.scannerwork/
