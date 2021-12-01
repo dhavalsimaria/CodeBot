@@ -27,6 +27,6 @@ Simple chatbot implemented using Google Dialogflow. It gives information about d
 <h2> :books: References</h2>
 <ul>
   <li>
-    <p><a href="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#reference">Spring Data MongoDB - Reference Documentation</a></p>
+    <p><a href="https://cloud.google.com/dialogflow/es/docs/tutorials">Google Cloud - Dialogflow Tutorials</a></p>
   </li>
 </ul>
