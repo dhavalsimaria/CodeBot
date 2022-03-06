@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "codebot-xnpp",
+  "private_key_id": "42a99a90cb4bccbe3d1d771aba1bf6162154dcb4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCksXdeyRGjnZYX\nkioJXS4s9VxWZnHvDxzFm/dRk//oVoy53vP+qfpalp7LwDdR44eUgx9/cdAtdDJz\ns96LJEbM4T9+v8U3eaxuH6PTRAKA8Ur817JdbGp9m4Cjs/v1wTwDkydHPhGLbjVU\nMYXsEColm62bwHJNWYrUR5JsJqxDV5cR1knUW/1K/PCjdHLlhITGyUVSFCy/tMuH\nONyyiWNoA9XIeQorH3BSV+YKV6A4JkllM3Zbzcs/ZttgdKdghiGkx5ZnDoawBVfa\naA/cMeAGPr/Jk+RHE5drTFSy5dFrmOMaLLFYL9JT3if+FK4DFotdydJzhxUiTOeg\nMRyZ9HE3AgMBAAECggEAEIlHzLrwTCGuM1mtYi6lTJr/lXvzI/y8In9MMDhlsToX\ne9uOBjD3qTwxtOWXkwpUelicGLDLJUqN0kjqJxsSXM9KZSXziGQYKHUsKYdM9Q4a\nkxPundYdRIAQ74mf2od3c33FVjA+P2YRHA4I6LCgJWc3NvSgxXF122YAUV76BvIi\n6rpW324P05lMy67Q7c5Bc5a5lYTG9xqQF4pdoSDEtYbQssF22BE8SgMxVUb8yh0u\nE8D21ckXokQXJBwFcoIF9IgvhXbAyIjBT6pqCm189bPacqKnYt3VVvzY/BX+7v8s\n6QH6nomT0wn3Rs3mJnx0EPW4mYb+KkkiXVUg8TF/kQKBgQDUZx9BDAIfyDB0KUje\nifRHLtWSGG+c1mnrcANC2c+holhcQ9sgcVQypW/hubiRxZODDJRvCf6cOLtEqXUh\naRM+c4K4clWk45ONxvDEaFseYR3SS2i9N9bE5u5fWolT9r4FSxuXRSIHJvqkEOf1\nIFNfL+V03WSjt0C6cJn6ICOr/wKBgQDGf2ey9PNHaEZAtWxAtAlWkBl4DlQuWF5E\njJpu2gUYD/FWUFY3RCvxIQdE49IicK5jmRH6uXb/lqAEuh357mROdF9iZevtWtZf\n6siGOrUg4xjAhuet+Hu4xQs2CCR0caxukBKo2CIFxDTtwPXOBYGFNsiKYYobkpM8\n+cRoc4WayQKBgQCbLjBGbMiMgczswVDszat76jq8/z9kPb6q9W5chBfPRnX6CtVo\nkYPrcLUaHH89eTU5tJIpwgqUBlrDYm8iFsupf+kMavQpgN9H4QX86SVRP7Dy+Icw\nX0B5ISMc5V+ZyZaw9VvWG/stcIwEHBnsHE7tJ2gkBrBFcFhJHoVQmfSV7wKBgQCn\nRVfis46LHzEMeJX31H+GBbqgtBp2T5to0r+VKH5gb5blMJ/mxLju4vFYOU+sHB6o\n6aYADehcq9a/BQQbyKuYfXKf3dm50/GRNK20h6Z5R0Zlf4meziWcZ9fxuVzXD6/K\nH/jJdhD9oQElVZUN/w/NbYQDMP0MDTGskaHUj30IGQKBgQCY63g8ZRVj14rSafKN\nphv9Iyf0sqVQWKW9trQPEgeqjplMtNKFKeP8P+We6R0jfar2qzyDSzLRJ99GJWZa\nQiIpiIIb58bWcmbvmhpcCkxS71bQsYSTY+3aaW1mZtsGv+Nf2+NhO8580mohCsLS\nFRhgqjnMwISVWItMIi5wxCr7qQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "codebot-dialogflow-integration@codebot-xnpp.iam.gserviceaccount.com",
+  "client_id": "116824155203541921651",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/codebot-dialogflow-integration%40codebot-xnpp.iam.gserviceaccount.com"
+}
