@@ -1,21 +1,17 @@
-# This is a sample Python script.
-
 # Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import json
 import os
 
-import dialogflow as dialogflow
-import requests
+from google.cloud import dialogflow_v2 as gcd
+
 from flask import render_template, Flask, jsonify, request
 
 app = Flask(__name__)
-GOOGLE_APPLICATION_CREDENTIALS=os.environ.setdefault('GOOGLE_APPLICATION_CREDENTIALS', "config/codebot-xnpp-bdcf7960398a.json")
+GOOGLE_APPLICATION_CREDENTIALS=os.environ.setdefault('GOOGLE_APPLICATION_CREDENTIALS', "config/codebot-xnpp-42a99a90cb4b.json")
+
 
 @app.route('/codebot', methods=['POST'])
 def codebot(name):
-    # Use a breakpoint in the code line below to debug your script.
-    #print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     message = request.GET.get('message')
     projectid = 'codebot-xnpp'
     response_received = detect_intent_texts(project_id=projectid, text=message,
@@ -58,20 +54,19 @@ def webhook():
 
 
 def detect_intent_texts(project_id, session_id, text, language_code):
-    session_client = dialogflow.SessionsClient()
+    session_client = gcd.SessionsClient()
     session = session_client.session_path(project_id, session_id)
 
     if text:
-        text_input = dialogflow.types.TextInput(
+        text_input = gcd.TextInput(
             text=text, language_code=language_code)
         print("Text input: ", text_input)
-        query_input = dialogflow.types.QueryInput(text=text_input)
+        query_input = gcd.QueryInput(text=text_input)
         response = session_client.detect_intent(
             session=session, query_input=query_input)
         print("Response: ", response)
         return response.query_result.fulfillment_text
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001, threaded=False)
