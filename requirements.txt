@@ -1,4 +1,4 @@
-#dialogflow>=0.8.0
+markupsafe==2.0.1
 google-cloud-dialogflow==2.10.0
 requests>=2.22.0
 psycopg2>=2.8.5
